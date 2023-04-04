@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.laranja{
+    background-color: rgb(243,173,43);
+    transition: all 0.25s ease-in-out;
+}
+
+.vermelho{
+    background-color: rgb(175,40,40);
+    transition: all 0.25s ease-in-out;
+}
+
+.roxo{
+    background-color: rgb(109,29,109);
+    transition: all 0.25s ease-in-out;
+}
+
+.resetar{
+    transition: all 0.25s ease-in-out;
+}
+
+button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fdfdfd;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .resetar{
+    color: black;
+}
